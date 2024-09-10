@@ -1,13 +1,15 @@
 {
-	"dependencies": {
-		"rolldown": "latest"
-	},
-	"name": "rolldown-starter",
-	"scripts": {
-		"build": "RD_LOG=error rolldown -c ./rolldown.config.mjs"
-	},
-	"stackblitz": {
-		"installDependencies": false,
-		"startCommand": "npm install --cpu=wasm32 && npm run build"
-	}
+  "name": "rolldown-starter",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "RD_LOG=error rolldown -c ./rolldown.config.mjs"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "npm install --cpu=wasm32 && npm run build"
+    },
+  "dependencies": {
+    "rolldown": "latest"
+  }
 }
