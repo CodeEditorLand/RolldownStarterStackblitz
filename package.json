@@ -1,10 +1,10 @@
 {
-	"dependencies": {
-		"rolldown": "latest"
-	},
 	"name": "rolldown-starter",
 	"scripts": {
 		"build": "RD_LOG=error rolldown -c ./rolldown.config.mjs"
+	},
+	"dependencies": {
+		"rolldown": "latest"
 	},
 	"stackblitz": {
 		"installDependencies": false,
